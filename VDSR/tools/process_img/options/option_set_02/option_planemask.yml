@@ -1,0 +1,15 @@
+input_folder_recursive: False # Whether to read the input folder recursively
+input_folder: datasets\set2\plane_mask
+save_folder_prefix: datasets\set2\plane_mask
+existed_folder: delete # the way to deal with existed folder with the same name. choice=raise, rename, delete
+
+operations_list:
+  operation_1:
+    mode: crop_edge
+    filename_tmpl: '{}'
+    save_folder: ~
+    save_folder_tmpl: '{}_cropEdge'
+    base_size: 4
+    center: True
+
+

@@ -1,0 +1,5 @@
+n_thread: 4 # num of thread
+
+process_list:
+  process_1: tools\process_img\options\option_set_06_mask\option_dog_mask.yml
+  process_2: tools\process_img\options\option_set_06_mask\option_people_mask.yml

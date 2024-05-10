@@ -1,0 +1,19 @@
+work_dir: data/datasets/seg_test/set01
+input_dir_recursive: False # Whether to read the input dir recursively
+input_dir: origin_cropEdge_rrx4_irx4
+save_dir_prefix: people
+existed_dir: delete # the way to deal with existed dir with the same name. choice=raise, rename, delete
+img_from_outer: False
+
+operation_list:
+  operation_1:
+    mode: MaskBoxOperation
+    save: true
+    save_imgname_tmpl: '{}' # the way to name the processed img
+    save_dir: ~
+    save_dir_tmpl: '{}_masked'
+    mask_save_name: 'mask_people.jpg'
+    mask_save_dir: ~
+    mask_save_dir_tmpl: '{}_mask'
+    json_path: segment_people\mask.json
+    structure_element_kernel_d_size: 50

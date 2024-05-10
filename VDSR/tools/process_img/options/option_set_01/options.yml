@@ -1,0 +1,8 @@
+n_thread: 4 # num of thread
+
+process_list:
+  process_1: tools\process_img\options\option_set_01\option_origin.yml
+  process_2: tools\process_img\options\option_set_01\option_bird.yml
+  process_3: tools\process_img\options\option_set_01\option_people.yml
+  process_4: tools\process_img\options\option_set_01\option_plane.yml
+

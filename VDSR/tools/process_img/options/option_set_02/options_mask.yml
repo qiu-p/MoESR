@@ -1,0 +1,7 @@
+n_thread: 1 # num of thread
+
+process_list:
+  process_1: tools\process_img\options\option_set_02\option_birdmask.yml
+  process_2: tools\process_img\options\option_set_02\option_peoplemask.yml
+  process_3: tools\process_img\options\option_set_02\option_planemask.yml
+

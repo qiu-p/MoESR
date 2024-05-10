@@ -1,0 +1,10 @@
+n_thread: 1 # num of thread
+
+process_list:
+  origin: tools/process_img2/options/option_set_03_vdsrwithsegJiekou/option_origin.yml
+  car: tools/process_img2/options/option_set_03_vdsrwithsegJiekou/option_car.yml
+  plane: tools/process_img2/options/option_set_03_vdsrwithsegJiekou/option_plane.yml
+  dog: tools/process_img2/options/option_set_03_vdsrwithsegJiekou/option_dog.yml
+  cat: tools/process_img2/options/option_set_03_vdsrwithsegJiekou/option_cat.yml
+  people: tools/process_img2/options/option_set_03_vdsrwithsegJiekou/option_people.yml
+

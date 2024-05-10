@@ -1,0 +1,7 @@
+n_thread: 1 # num of thread
+
+process_list:
+  origin: tools\process_img2\options\option_set_02_vdsrwithseg\option_origin.yml
+  dog: tools\process_img2\options\option_set_02_vdsrwithseg\option_dog.yml
+  people: tools\process_img2\options\option_set_02_vdsrwithseg\option_people.yml
+

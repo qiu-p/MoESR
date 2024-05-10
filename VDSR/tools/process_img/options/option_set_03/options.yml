@@ -1,0 +1,5 @@
+n_thread: 4 # num of thread
+
+process_list:
+  process_1: tools\process_img\options\option_set_03\option_origin.yml
+

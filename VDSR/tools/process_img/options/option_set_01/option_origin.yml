@@ -1,0 +1,21 @@
+input_folder_recursive: False # Whether to read the input folder recursively
+input_folder: datasets\set1\origin
+save_folder_prefix: datasets\set1\origin
+existed_folder: delete # the way to deal with existed folder with the same name. choice=raise, rename, delete
+
+operations_list:
+  operation_1:
+    mode: crop_edge
+    filename_tmpl: '{}'
+    save_folder: ~
+    save_folder_tmpl: '{}_cropEdge'
+    base_size: 4
+    center: True
+  operation_2:
+    mode: reduce_resolution
+    filename_tmpl: '{}'
+    save_folder: ~
+    save_folder_tmpl: '{}_rrx4'
+    reduce_scaling_factor: 4
+    rr_crop: True
+

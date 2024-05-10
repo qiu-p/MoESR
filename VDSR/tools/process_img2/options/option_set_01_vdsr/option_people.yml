@@ -1,0 +1,29 @@
+input_dir_recursive: False # Whether to read the input dir recursively
+input_dir: data\datasets\test\people_test
+save_dir_prefix: data\datasets\test\people_test
+existed_dir: delete # the way to deal with existed dir with the same name. choice=raise, rename, delete
+
+operation_list:
+  operation_1:
+    mode: CropEdgeOperation
+    save: true
+    save_imgname_tmpl: '{}' # the way to name the processed img
+    save_dir: ~
+    save_dir_tmpl: '{}_cropEdge'
+    base_size: 4
+    center: True
+  operation_2:
+    mode: ReduceResolutionOperation
+    save: true
+    save_imgname_tmpl: '{}' # the way to name the processed img
+    save_dir: ~
+    save_dir_tmpl: '{}_rrx4'
+    reduce_scaling_factor: 4
+    rr_crop: True
+  operation_3:
+    mode: ImproveResolutionOperation
+    save: true
+    save_imgname_tmpl: '{}' # the way to name the processed img
+    save_dir: ~
+    save_dir_tmpl: '{}_irx4'
+    improve_scaling_factor: 4
