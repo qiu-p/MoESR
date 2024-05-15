@@ -28,14 +28,10 @@ python test_pic.py --opt VDSR/tools/process_img2/options/option_set_03_vdsrwiths
 
 ## Dataset
 [专家网络模型训练集](https://pan.baidu.com/s/14KHhyPavRHmEY4eNhnkanA?pwd=73e9)
-提取码：73e9
 
 [对比实验测试集](https://pan.baidu.com/s/1clSU_kEWRDsSqnI_kVmXcw?pwd=3y02)
-提取码：3y02
-
 
 [MoESR 模型测试集](https://pan.baidu.com/s/1WsExE3PuGYgWKacGPo2vbA?pwd=k60j)
-提取码：k60j
 
 ## Contact
 
