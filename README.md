@@ -16,10 +16,10 @@ MoE-SR can be regarded as a generic architecture for improving the performance o
 
 
 ## Requirement
-Python >= 3.7 (Recommend to use Anaconda or Miniconda)
-PyTorch >= 1.7
-NVIDIA GPU + CUDA
-Linux (We have not tested on Windows)
+- Python >= 3.7 (Recommend to use Anaconda or Miniconda)
+- PyTorch >= 1.7
+- NVIDIA GPU + CUDA
+- Linux (We have not tested on Windows)
 
 ## Usage
 ```
@@ -33,7 +33,6 @@ python test_pic.py --opt VDSR/tools/process_img2/options/option_set_03_vdsrwiths
 
 [MoESR 模型测试集](https://pan.baidu.com/s/1WsExE3PuGYgWKacGPo2vbA?pwd=k60j)
 
-## Contact
 
 
 
